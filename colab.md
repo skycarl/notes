@@ -18,7 +18,7 @@ os.system(cmd_string)
 cmd_string, password = "", "" # removing the password from the variable
 ```
 
-Note that if 2FA is enabled, an access token is needed instead of a password. 
+Note that if 2FA is enabled, an access token is needed instead of a password. `repo` permissions appear to work when generating the token. 
 
 Source: https://stackoverflow.com/questions/48350226/methods-for-using-git-with-google-colab
 
